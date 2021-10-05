@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    background: #080808;
+}
+
+#Name{
+    position: absolute;
+    font-size: 12px;
+    font-family: "Segoe UI", sans-serif;
+    color: #fff;
+    text-align: center;
+    top: 10vh;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 9px #e8f806, -3px -3px 9px #06caec;
+
+}
+
+#Name:hover{
+    background: #fd6106;
+    box-shadow: 30 30 30px #eae6eb;
+    cursor: pointer;
+}
+
+.sm{
+    position: absolute;
+    margin: 10px;;
+    top: 25vh;
+}
+
+.sm a {
+    color: rgb(241, 237, 237);
+    font-size: 22px;
+    margin: 0 10px; 
+    transition: 0.2s linear;
+}
+
+.sm a:hover {
+  color: #1efa0a;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.box{
+    text-align: center;
+}
+
+.hours, .minutes, .seconds, .amorpm{
+    width: 4em;
+    height: 4em;
+    background-color: rgb(12, 12, 12);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 3px 3px 9px #f80606, -3px -3px 9px #8048b8;
+}
+
+#hours, #minutes, #seconds, #amorpm{
+    font-size: 2em;
+    color: white;
+}
+
+.box > h1{
+    font-size: 1em;
+    color: white;
+}
