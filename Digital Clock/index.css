@@ -80,10 +80,10 @@ body{
 
 #hours, #minutes, #seconds, #amorpm{
     font-size: 2em;
-    color: white;
+    color: blue;
 }
 
 .box > h1{
     font-size: 1em;
-    color: white;
+    color: blue;
 }
